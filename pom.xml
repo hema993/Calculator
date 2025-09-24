@@ -44,6 +44,7 @@
 
     <build>
         <plugins>
+            <!-- Surefire plugin to run tests in headless mode -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
@@ -56,5 +57,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
